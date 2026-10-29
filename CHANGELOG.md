@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/godronus-org/private-hello/compare/v0.2.0...v0.3.0) (2026-10-29)
+
+
+### Features
+
+* greet with howdy; pin the prod app id ([#3](https://github.com/godronus-org/private-hello/issues/3)) ([09a8845](https://github.com/godronus-org/private-hello/commit/09a8845bb1d8763e11f22b0babf09f9e314a70fd))
+
 ## [0.2.0](https://github.com/godronus-org/private-hello/compare/v0.1.0...v0.2.0) (2026-10-29)
 
 
