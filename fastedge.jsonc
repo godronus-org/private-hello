@@ -6,12 +6,12 @@
 
   "app": {
     "name": "gdr-hello",
-    "env": { "GREETING": "hello" }
+    "env": { "GREETING": "howdy" }
   },
 
   // POC: test accounts only (F17). Names start with "gdr-" (F25).
   "environments": {
     "preprod": { "app": { "id": 1325651, "name": "gdr-hello-preprod" } },
-    "prod": {}
+    "prod": { "app": { "id": 3626 } }
   }
 }
