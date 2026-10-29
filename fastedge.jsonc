@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/godronus-org/toolkit/v1/schema/fastedge.schema.json",
+  "kind": "app",
+  "runtime": "http-app",
+  "language": "rust",
+
+  "app": {
+    "name": "gdr-hello",
+    "env": { "GREETING": "hello" }
+  },
+
+  // POC: test accounts only (F17). Names start with "gdr-" (F25).
+  "environments": {
+    "preprod": { "app": { "name": "gdr-hello-preprod" } },
+    "prod": {}
+  }
+}
