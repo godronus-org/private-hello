@@ -11,7 +11,7 @@
 
   // POC: test accounts only (F17). Names start with "gdr-" (F25).
   "environments": {
-    "preprod": { "app": { "name": "gdr-hello-preprod" } },
+    "preprod": { "app": { "id": 1325651, "name": "gdr-hello-preprod" } },
     "prod": {}
   }
 }
