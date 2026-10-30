@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/godronus-org/private-hello/compare/v0.3.0...v0.4.0) (2026-10-30)
+
+
+### Features
+
+* greet via org library gdr-lib (git dependency on the public mirror, v0.1.0) ([#5](https://github.com/godronus-org/private-hello/issues/5)) ([a6863ee](https://github.com/godronus-org/private-hello/commit/a6863eec46586db686c386ad26246b2392c54873))
+
 ## [0.3.0](https://github.com/godronus-org/private-hello/compare/v0.2.0...v0.3.0) (2026-10-29)
 
 
