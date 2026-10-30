@@ -147,8 +147,8 @@ dependencies = [
 
 [[package]]
 name = "gdr-lib"
-version = "0.1.0"
-source = "git+https://github.com/godronus-org/gdr-lib?tag=v0.1.0#b6a5af8d1a10cb34af155a519e709a35e8e58c3f"
+version = "0.1.1"
+source = "git+https://github.com/godronus-org/gdr-lib?tag=v0.1.1#971a6cb6759bcfb43ac939eed9797a76bdf1220e"
 
 [[package]]
 name = "hashbrown"

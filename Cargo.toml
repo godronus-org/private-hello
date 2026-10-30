@@ -10,4 +10,4 @@ crate-type = ["cdylib"]
 fastedge = "0.4"
 anyhow = "1"
 # Org library from its public mirror, pinned to a tag (T8, T34); Renovate bumps it as fix(deps) (T13).
-gdr-lib = { git = "https://github.com/godronus-org/gdr-lib", tag = "v0.1.0" }
+gdr-lib = { git = "https://github.com/godronus-org/gdr-lib", tag = "v0.1.1" }
