@@ -6,6 +6,7 @@
 
   "app": {
     "name": "gdr-hello",
+    doe
     "env": { "GREETING": "howdy" }
   },
 
