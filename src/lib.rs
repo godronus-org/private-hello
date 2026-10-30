@@ -12,6 +12,6 @@ fn main(_req: Request<Body>) -> Result<Response<Body>> {
         .status(StatusCode::OK)
         .header("content-type", "text/plain;charset=UTF-8")
         .header("x-app-version", env!("CARGO_PKG_VERSION"))
-        .body(Body::from(format!("{greeting} from v{}\n", env!("CARGO_PKG_VERSION"))))
+        .body(Body::from(format!("{} (hello v{})\n", gdr_lib::greeting(&greeting), env!("CARGO_PKG_VERSION"))))
         .map_err(Into::into)
 }
