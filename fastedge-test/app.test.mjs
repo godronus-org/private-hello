@@ -17,11 +17,11 @@ await runAndExit(defineTestSuite({
   runnerConfig: { dotenv: { enabled: true, path: resolve(here, 'env/default') } },
   tests: [
     {
-      name: 'GET / greets with GREETING and reports the crate version',
+      name: 'GET / greets via gdr-lib with GREETING and reports the crate version',
       async run(runner) {
         const res = await runHttpRequest(runner, { path: '/', method: 'GET' });
         assertHttpStatus(res, 200);
-        assertHttpBodyContains(res, `hi from v${version}`);
+        assertHttpBodyContains(res, `hi from gdr-lib (hello v${version})`);
       },
     },
   ],
