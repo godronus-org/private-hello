@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/godronus-org/private-hello/compare/v0.4.0...v0.4.1) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update rust crate gdr-lib to v0.1.1 ([#10](https://github.com/godronus-org/private-hello/issues/10)) ([f15a65b](https://github.com/godronus-org/private-hello/commit/f15a65b7c264c6ace3327d42866bd14f47c0d6ee))
+
 ## [0.4.0](https://github.com/godronus-org/private-hello/compare/v0.3.0...v0.4.0) (2026-10-30)
 
 
